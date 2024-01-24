@@ -1,0 +1,153 @@
+*,html{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.wrapper{
+    
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-shadow:  10px 10px 5px 9px hsl(241, 100%, 89%);
+
+}
+.Result{
+    background-color: hsl(241, 72%, 55%);
+    text-align: center;
+    
+    width: 300px;
+   
+    border-radius: 10px;
+   
+    padding-top: 3rem;
+}
+h2{
+    color:  hsl(241, 100%, 89%);
+    font: 3rem;
+}
+.roll{
+    margin-top: 1rem;
+    position: relative;
+    border-radius: 50%;
+    background: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    color: hsl(0, 0%, 100%);
+    padding-top: 1rem;
+    width: 150px;
+    height: 150px;
+    left: 29%;
+   
+    
+}
+.roll p{
+    color:hsl(241, 100%, 89%);
+    padding-top: 0.5rem;
+}
+h1{
+    padding-top: 2rem;
+    color: hsl(0, 0%, 100%);
+    
+}
+.you{
+    padding: 2rem;
+    line-height: 1.5;
+    color: hsl(241, 100%, 89%);
+
+}
+.Summary{
+    background-color: hsl(0, 0%, 100%);
+    text-align: center;
+   
+}
+.Summary h3{
+    text-align: left;
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    padding-top: 2rem;
+}
+.list{
+    display: flex;
+    gap: 5rem;
+    text-align: center;
+    padding-top: 3rem;
+    padding-left: 2rem;
+}
+
+.Summary .list .reaction{
+    color: hsl(0, 100%, 67%);
+   display: inline-flex;
+   gap: 12px;
+} 
+.Summary .list .memory{
+    color: hsl(39, 100%, 56%);
+   display: inline-flex;
+   gap: 12px;
+} 
+.Summary .list .verbal{
+    color: hsl(166, 100%, 37%);
+   display: inline-flex;
+   gap: 12px;
+} 
+.Summary .list .visual{
+    color: hsl(234, 85%, 45%);
+   display: inline-flex;
+   gap: 12px;
+} 
+.Summary .list span{
+    color: hsl(241, 100%, 89%);
+}
+button{
+    margin-top: 2rem;
+    width: 90%;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    background-color:  hsl(254, 25%, 10%);
+    font-size: 18px;
+    font-weight: 600;
+    color: hsl(241, 100%, 89%);
+    cursor: pointer;
+}
+.form_d{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.form_d form{
+    background-color: #fff;
+    padding: 3rem;
+}
+.form_d form input{
+    margin: 0.9rem;
+    width: 250px;
+    height: 35px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    padding-left: 4px;
+}
+
+.form_d form button{
+    padding: 0.5rem;
+    width: 80px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+}
+.form_d form button:hover{
+    background-color: aquamarine;
+}
+.attribution {
+     font-size: 11px;
+      text-align: center;
+     }
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+ }
